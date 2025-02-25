@@ -161,12 +161,12 @@ input[type='checkbox']:checked + p {
 }
 
 .delete-btn {
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 .delete-btn:hover {
   cursor: pointer;
-  transform: rotate(360deg) scale(1.2);
+  transform: scale(1.1);
 }
 
 .list-total,
@@ -280,6 +280,8 @@ body.light-theme {
   }
 
   .list-item.placeholder {
+    height: 40px;
+    margin: 5px 0;
     background-color: var(--light-very-light-grayish-blue);
   }
 }
@@ -335,19 +337,20 @@ body.dark-theme {
   }
 
   .list-item.placeholder {
+    height: 40px;
+    margin: 5px 0;
     background-color: var(--dark-very-dark-blue);
   }
 }
 
+// .list-items .list-item {
+//   cursor: grab;
+// }
 
-.list-items .list-item {
-  cursor: grab;
-}
-
-.list-item.dragging {
-  opacity: 0.5;
-  cursor: grabbing;
-}
+// .list-item.dragging {
+//   opacity: 0.5;
+//   cursor: grabbing;
+// }
 
 .list-item.placeholder {
   animation: placeholderAnimation 0.5s ease forwards;
@@ -376,7 +379,7 @@ body.dark-theme {
   }
 
   .mobile-filter {
-    display: block !important;
+    display: block;
   }
 }
 

@@ -11,54 +11,7 @@
   <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body class="light-theme">
-
-  <div class="container wrapper">
-    <header>
-      <h1>Todo</h1>
-      <div><img class="theme-toggle" id="theme-toggle" src="" alt=""></div>
-    </header>
-    <main>
-      <form action="/" class="input-field list-item" id="task-form">
-        <div class="input-container">
-          <input type="checkbox" readonly>
-          <input type="text" placeholder="Create a new todo..." id="task-input">
-        </div>
-      </form>
-      <div class="list">
-        <div class="list-items" id="list-items">
-        </div>
-        <div class="list-total">
-          <div><span id="item-left">5</span> items left</div>
-          <div class="filter">
-            <ul>
-              <li id="filter-all" class="selected">All</li>
-              <li id="filter-active">Active</li>
-              <li id="filter-completed">Completed</li>
-            </ul>
-          </div>
-          <div id="clear-completed" class="clear-completed">Clear Completed</div>
-        </div>
-      </div>
-      <div class="mobile-filter">
-        <ul>
-          <li id="filter-all" class="selected">All</li>
-          <li id="filter-active">Active</li>
-          <li id="filter-completed">Completed</li>
-        </ul>
-      </div>
-    </main>
-    <div class="drag-n-drop">
-      <p>Drag and drop to reorder list</p>
-    </div>
-  
-    <footer>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/angela-tylee">angela</a>.
-      </div>
-    </footer>
-  </div>
-
-  <script type='module' src="./src/app.js"></script>
+  <div id="root"></div>
+  <script type='module' src="./src/main.jsx"></script>
 </body>
 </html>
