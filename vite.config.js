@@ -39,7 +39,7 @@ export default defineConfig(async () => {
   }
 
   return {
-    base: '/todo-app-react/',
+    base: '/todo-app-redux/',
     plugins: [
       liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
       moveOutputPlugin(),

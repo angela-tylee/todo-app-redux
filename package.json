@@ -1,5 +1,5 @@
 {
-  "name": "todo-app-react",
+  "name": "todo-app-redux",
   "private": true,
   "version": "1.0.0",
   "type": "module",

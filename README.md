@@ -16,7 +16,7 @@
 
 ## Overview
 
-Revamp from my previous project developed with Vanilla JS. (https://github.com/angela-tylee/todo-app)
+Revamp from my previous project developed with React. (https://github.com/angela-tylee/todo-app-react)
 
 ### The challenge
 
@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/angela-tylee/todo-app-react
-- Live Site URL: https://angela-tylee.github.io/todo-app-react/
+- Solution URL: https://github.com/angela-tylee/todo-app-redux
+- Live Site URL: https://angela-tylee.github.io/todo-app-redux/
 
 ## My process
 
